@@ -178,7 +178,7 @@ class CardProfile extends React.Component {
                         </div>
 
                         <div className="controls">
-                            <button onClick={this.prevSong} className="prev prev-next current-btn"><i className="fas fa-backward"></i></button>
+                            <button onClick={this.prevSong} className="prev prev-next current-btn">&#8249;<i className="fas fa-backward"></i></button>
 
                             <button onClick={this.playOrPause} className="play current-btn">
                                 {
@@ -186,7 +186,7 @@ class CardProfile extends React.Component {
                                         : <i class="fas fa-pause"></i>
                                 }
                             </button>
-                            <button onClick={this.nextSong} className="next prev-next current-btn"><i className="fas fa-forward"></i></button>
+                            <button onClick={this.nextSong} className="next prev-next current-btn">&#8250;<i className="fas fa-forward"></i></button>
                         </div>
 
                     </div>
@@ -218,9 +218,6 @@ class CardProfile extends React.Component {
     }
 }
 
-//    <CardProfile />,
-//  document.getElementById('root')
-//)
 
 
 
